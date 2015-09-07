@@ -1,0 +1,116 @@
+/* Responsive: wrap on wide viewports once open */
+@media (min-width:0em) {
+	.ui-responsive-panel .ui-panel-page-content-open.ui-panel-page-content-position-left {
+		margin-right: 17em;
+	}
+	.ui-responsive-panel .ui-panel-page-content-open.ui-panel-page-content-position-right {
+		margin-left: 17em;
+	}
+	.ui-responsive-panel .ui-panel-page-content-open {
+		width: auto;	
+	}
+	.ui-responsive-panel .ui-panel-dismiss-display-push,
+	.ui-responsive-panel.ui-page-active ~ .ui-panel-dismiss-display-push {
+		display: none;
+	}
+}
+   .ui-panel.ui-panel-open {
+        position:fixed;
+    }
+    .ui-panel-inner {
+        position: absolute;
+        top: 1px;
+        left: 0;
+        right: 0;
+        bottom: 0px;
+        overflow: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    #audioControls {
+        position: relative;
+        top: -24px;
+    }
+
+    input {
+        width: 100px;
+    }
+
+    input.checkbox {
+        width: 30px;
+        margin-left: 4px;
+    }
+
+    label.inputControl {
+        display: inline;
+        padding-right: 10px;
+    }
+
+    .ui-accordion .ui-accordion-content {
+        padding: 1em 1em;
+        border-top: 0;
+        overflow: auto;
+    }
+
+    #lyricBox {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        margin-top:
+    }
+
+    #mainSection {
+        position: relative;
+        top: 0;
+    }
+
+.fire {
+    display: block;
+
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    float: none;
+    z-index: auto;
+    width: auto;
+    height: auto;
+    position: static;
+    content: ;
+    cursor: default;
+    opacity: 1;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    outline: none;
+    border: 0 solid rgba(0,0,0,1);
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    font: normal normal normal 80px/normal "Anton", Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: left;
+    text-transform: uppercase;
+    text-indent: 0;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    letter-spacing: -8px;
+    white-space: normal;
+    word-spacing: 0;
+    word-wrap: ;
+    background: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-shadow: 0 0 20px rgb(254,252,201) , 10px -10px 30px rgb(254,236,133) , -20px -20px 40px rgb(255,174,52) , 20px -40px 50px rgb(236,118,12) , -20px -60px 60px rgb(205,70,6) , 0 -80px 70px rgb(151,55,22) , 10px -90px 80px rgb(69,27,14);
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+    -webkit-transform: scaleX(1) scaleY(1) scaleZ(1);
+    transform: scaleX(1) scaleY(1) scaleZ(1);
+    -webkit-transform-origin: 50% 50% 0;
+    transform-origin: 50% 50% 0;
+}

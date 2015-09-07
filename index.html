@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Web Audio API Visualisation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://webaudioapi.com/static/js/shared.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/modules/particles.js"></script>
+    <script src="js/modules/background.js"></script>
+    <script src="js/modules/waveform.js"></script>
+    <script src="js/modules/text.js"></script>
+    <script src="js/modules/equaliser.js"></script>
+    <script src="js/modules/photo.js"></script>
+    <link rel="stylesheet" href="libs/jquery-ui.min.css">
+    <script src="libs/external/jquery/jquery.js"></script>
+    <script src="libs/jquery-ui.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.js"></script>
+    <script src="libs/jquery.jplayer.js"></script>
+    <script src="libs/jquery.ui.touch-punch.min.js"></script>
+
+    <script src="libs/wavesurfer.js"></script>
+    <script src="libs/wavesurfer-timeline.js"></script>
+    <link type="text/css" href="css/audiocontrols/premium-pixels.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link type="text/css" href="css/audiocontrols/premium-pixels.css" rel="stylesheet" />
+
+</head>
+<body>
+<div data-role="page" data-theme="b" class="ui-responsive-panel" id="demo-page">
+
+    <div role="main" class="ui-content" id="mainSection">
+        <canvas id="canvas"></canvas>
+        <div id="lyricBox" class="fire"></div>
+    </div><!-- /content -->
+
+    <div data-role="panel" id="right-panel" data-display="push" data-position="right" data-theme="b">
+        <div id="modules">
+        </div>
+        <a href="#" data-rel="close" data-role="button" data-mini="true" data-inline="true" data-icon="delete" data-iconpos="right">Close</a>
+    </div><!-- /panel -->
+
+    <div id="waveform" data-role="footer" data-position="fixed" data-fullscreen="true">
+        <div id="waveformTimeline"></div>
+    </div>
+</div><!-- /page -->
+
+</body>
+</html>

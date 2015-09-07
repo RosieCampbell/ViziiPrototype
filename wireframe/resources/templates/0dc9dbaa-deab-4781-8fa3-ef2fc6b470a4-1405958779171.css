@@ -1,0 +1,91 @@
+#t-0dc9dbaa-deab-4781-8fa3-ef2fc6b470a4 {
+  background-color: #282828;
+  background-image: none;
+  min-width: 640px;
+  min-height: 360px;
+}
+#t-0dc9dbaa-deab-4781-8fa3-ef2fc6b470a4 > #alignmentBox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#t-0dc9dbaa-deab-4781-8fa3-ef2fc6b470a4 #t-Group_1 {
+  position: absolute;
+  top: 0px;
+  left: 598px;
+  width: 42px;
+  height: 360px;
+}
+#t-0dc9dbaa-deab-4781-8fa3-ef2fc6b470a4 #t-Rectangle_1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 42px;
+  height: 360px;
+  background-color: #000000;
+  background-image: none;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+  box-shadow: none;
+  text-shadow: none;
+  font-size: 11pt;
+  font-family: Roboto-Regular,Arial;
+}
+#t-0dc9dbaa-deab-4781-8fa3-ef2fc6b470a4 #t-Rectangle_1 .valign {
+  vertical-align: middle;
+  text-align: center;
+}
+#t-0dc9dbaa-deab-4781-8fa3-ef2fc6b470a4 #t-Rectangle_1 span {
+  color: #808080;
+  text-align: center;
+  text-decoration: none;
+  font-family: Roboto-Regular,Arial;
+  font-size: 11pt;
+}
+#t-0dc9dbaa-deab-4781-8fa3-ef2fc6b470a4 #t-Rectangle_1 span#rtr-t-Rectangle_1_0 {
+  color: #808080;
+  text-align: center;
+  text-decoration: none;
+  font-family: Roboto-Regular,Arial;
+  font-size: 11pt;
+  line-height: 0px;
+}
+#t-0dc9dbaa-deab-4781-8fa3-ef2fc6b470a4 #t-Image_1 {
+  position: absolute;
+  top: 59px;
+  left: 0px;
+  width: 42px;
+  height: 38px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+  box-shadow: none;
+}
+#t-0dc9dbaa-deab-4781-8fa3-ef2fc6b470a4 #t-Image_6 {
+  position: absolute;
+  top: 163px;
+  left: 0px;
+  width: 42px;
+  height: 34px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+  box-shadow: none;
+}
+#t-0dc9dbaa-deab-4781-8fa3-ef2fc6b470a4 #t-Image_7 {
+  position: absolute;
+  top: 260px;
+  left: 0px;
+  width: 42px;
+  height: 40px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+  box-shadow: none;
+}
+#t-0dc9dbaa-deab-4781-8fa3-ef2fc6b470a4 > #loadMark {
+  width: 1px;
+  visibility: hidden;
+  display: none;
+}
