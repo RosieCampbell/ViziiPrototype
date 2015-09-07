@@ -360,7 +360,7 @@ function setupDrawingCanvas() {
     imageObj.onload = function() {
         texture = canvasContext.createPattern(imageObj, 'repeat');
     };
-    imageObj.src = 'http://www.bangngangan.com/images/rough-beige-paper-texture-free-stock-public-domain-pictures_325426.jpg';
+    imageObj.src = '';
 
     vignette = canvasContext.createRadialGradient(canvas.width / 2, canvas.height / 2, 100, canvas.width / 2, canvas.height / 2, 700);
     vignette.addColorStop(0, "transparent");
