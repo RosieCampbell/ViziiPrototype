@@ -5,7 +5,7 @@ var prevVol = 0;
 
 function photo_ui(div) {
 
-    var imgurls = ['../img1.jpg', '../img2.jpg', '../img3.jpg', '../img4.jpg', '../1.jpg', '../9.jpg', '../4.jpg', '../10.jpg', '../6.jpg', '../2.jpg', '../8.jpg', '../7.jpg', '../5.jpg', '../11.jpg']
+    var imgurls = ['img1.jpg', 'img2.jpg', 'img3.jpg', 'img4.jpg', '1.jpg', '9.jpg', '4.jpg', '10.jpg', '6.jpg', '2.jpg', '8.jpg', '7.jpg', '5.jpg', '11.jpg']
     for (var i = 0; i < imgurls.length; i++) {
         images[i] = new Image();
         images[i].src = imgurls[i];
