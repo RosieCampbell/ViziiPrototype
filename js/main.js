@@ -65,7 +65,7 @@ function init() {
         draw();
     });
 
-    wavesurfer.load('../mag.mp3');
+    wavesurfer.load('mag.mp3');
 
     $(document).on("swipeleft", "#mainSection", function(e) {
         // We check if there is no open panel on the page because otherwise
