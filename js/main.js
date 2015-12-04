@@ -360,7 +360,7 @@ function setupDrawingCanvas() {
     imageObj.onload = function() {
         texture = canvasContext.createPattern(imageObj, 'repeat');
     };
-    imageObj.src = '';
+    imageObj.src = 'http://img01.deviantart.net/5e6e/i/2010/201/8/a/rice_paper_texture_by_maplerose_stock.jpg';
 
     vignette = canvasContext.createRadialGradient(canvas.width / 2, canvas.height / 2, 100, canvas.width / 2, canvas.height / 2, 700);
     vignette.addColorStop(0, "transparent");
@@ -401,7 +401,7 @@ function kickPresent(timeByteData, volume) {
 
     }
 
-    return (top - bottom > 50);
+    return true;
 }
 
 var whenVolumeIsGreaterThan = function(volume, thenDoFunction) {

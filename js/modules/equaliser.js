@@ -13,16 +13,16 @@ function equaliser_ui(div) {
     createTextInput(div, "When volume reaches", "volume2", "15000");
     createTextInput(div, "change size to ", "changeSize", "2");
 
-    whenVolumeIsGreaterThan($("volume1").val(), function(event) {
+    whenVolumeIsGreaterThan($("#volume1").val(), function(event) {
         window.console.log(event.volume);
-        $('#shape').val($("changeShape").val());
+        $('#shape').val($("#changeShape").val());
 
     });
 
     volumeEventTriggered2 = false;
-    whenVolumeIsGreaterThan2($("volume2").val(), function(event) {
+    whenVolumeIsGreaterThan2($("#volume2").val(), function(event) {
         window.console.log(event.volume);
-        $('#size').val($("changeSize").val());
+        $('#size').val($("#changeSize").val());
     });
 }
 
