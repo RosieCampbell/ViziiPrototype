@@ -16,7 +16,6 @@ function text_ui(div) {
 }
 
 function text() {
-    if (kick) {
         var startTime = +$("#lyricsStartTime").val();
         var endTime = +$("#lyricsEndTime").val();
 
@@ -36,5 +35,4 @@ function text() {
             canvasContext.strokeText(textToShow, x, y);
             canvasContext.textBaseline = 'bottom';
         }
-    }
 }
